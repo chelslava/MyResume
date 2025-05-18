@@ -1,3 +1,7 @@
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
 # Основные настройки сайта
 title: Персональное резюме
 baseurl: "" # Базовый URL, если сайт размещен в подкаталоге
