@@ -1,0 +1,36 @@
+- name: Технические навыки
+  items:
+    - name: C#
+      level: 95
+    - name: .NET Core / .NET Framework
+      level: 90
+    - name: LINQ
+      level: 98
+    - name: ASP.NET
+      level: 85
+    - name: Entity Framework
+      level: 88
+    - name: SQL Server
+      level: 80
+
+- name: Фронтенд
+  items:
+    - name: HTML/CSS
+      level: 75
+    - name: JavaScript
+      level: 70
+    - name: Angular
+      level: 65
+    - name: React
+      level: 60
+
+- name: Дополнительно
+  items:
+    - name: Git
+      level: 85
+    - name: Azure DevOps
+      level: 75
+    - name: Docker
+      level: 70
+    - name: Microservices
+      level: 80

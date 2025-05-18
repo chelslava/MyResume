@@ -1,0 +1,24 @@
+- name: Microsoft Certified Azure Developer Associate
+  issuer: Microsoft
+  date: 2023
+  description: Сертификация, подтверждающая навыки разработки и развертывания приложений в Microsoft Azure.
+
+- name: Professional Scrum Developer
+  issuer: Scrum.org
+  date: 2022
+  description: Сертификация, подтверждающая знание принципов Scrum-разработки и умение их применять в реальных проектах.
+
+- name: .NET Core Developer
+  issuer: Pluralsight
+  date: 2021
+  description: Сертификат, подтверждающий навыки разработки приложений на .NET Core, включая веб-приложения и API.
+
+- name: SQL Server Database Administration
+  issuer: Microsoft
+  date: 2020
+  description: Сертификация по администрированию и оптимизации баз данных SQL Server.
+
+- name: C# Programming Advanced
+  issuer: Udemy
+  date: 2019
+  description: Курс по продвинутым техникам программирования на C# с фокусом на LINQ, асинхронное программирование и паттерны проектирования.

@@ -1,0 +1,32 @@
+<section id="certificates" class="section">
+  <h2 class="section-title">Сертификаты</h2>
+  <div class="wheel-container">
+    <h3 class="wheel-title">Мои профессиональные достижения</h3>
+    <div class="wheel certificates-wheel">
+      {% for certificate in site.data.certificates %}
+      <div class="wheel-item">
+        <div class="wheel-item-header">
+          <div class="wheel-item-icon">
+            <i class="fas fa-certificate"></i>
+          </div>
+          <div>
+            <h3 class="wheel-item-title">{{ certificate.name }}</h3>
+            <p class="wheel-item-subtitle">{{ certificate.issuer }} | {{ certificate.date }}</p>
+          </div>
+        </div>
+        <div class="wheel-item-content">
+          {{ certificate.description | markdownify }}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="wheel-controls">
+      <button class="wheel-control prev-certificate">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <button class="wheel-control next-certificate">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+  </div>
+</section>

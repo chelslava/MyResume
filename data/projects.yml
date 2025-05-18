@@ -1,0 +1,31 @@
+- name: Система управления задачами
+  technologies: C#, ASP.NET Core, Entity Framework, React
+  description: |
+    Полнофункциональная система управления задачами с веб-интерфейсом и RESTful API. 
+    Особенности включают настраиваемые рабочие процессы, интеграцию с календарем и систему уведомлений.
+  link: https://github.com/yourusername/task-management-system
+
+- name: Библиотека для работы с LINQ Extensions
+  technologies: C#, .NET Core, LINQ
+  description: |
+    Открытая библиотека, расширяющая стандартные возможности LINQ дополнительными методами для 
+    более элегантной работы с коллекциями и запросами к данным.
+  link: https://github.com/yourusername/linq-extensions
+
+- name: Микросервисное приложение для обработки платежей
+  technologies: C#, .NET Core, Docker, RabbitMQ, SQL Server
+  description: |
+    Система из нескольких микросервисов для обработки и анализа платежных транзакций с высокой отказоустойчивостью и масштабируемостью.
+  link: https://github.com/yourusername/payment-processing-system
+
+- name: Чат-приложение реального времени
+  technologies: C#, ASP.NET Core, SignalR, Angular
+  description: |
+    Приложение для обмена сообщениями в реальном времени с использованием SignalR для эффективной передачи данных между клиентами.
+  link: https://github.com/yourusername/realtime-chat
+
+- name: Парсер и анализатор логов
+  technologies: C#, LINQ, Regular Expressions
+  description: |
+    Инструмент для анализа и визуализации логов серверов с возможностью выявления аномалий и генерации отчетов.
+  link: https://github.com/yourusername/log-analyzer

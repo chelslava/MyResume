@@ -1,0 +1,17 @@
+<section id="experience" class="section">
+  <h2 class="section-title">Опыт работы</h2>
+  <div class="timeline">
+    {% for job in site.data.experience %}
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <span class="timeline-date">{{ job.date }}</span>
+        <h3 class="timeline-title">{{ job.title }}</h3>
+        <p class="timeline-company">{{ job.company }}</p>
+        <div>
+          {{ job.description | markdownify }}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

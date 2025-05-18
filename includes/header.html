@@ -1,0 +1,44 @@
+<header>
+  <div class="header-bg"></div>
+  <div class="container">
+    <div class="header-content">
+      <div class="profile">
+        <img src="{{ site.baseurl }}/assets/images/profile.jpg" alt="{{ site.name }}" class="profile-image">
+      </div>
+      <h1 class="name">{{ site.name }}</h1>
+      <p class="title">{{ site.title }}</p>
+      
+      <div class="contact-links">
+        {% if site.email %}
+        <a href="mailto:{{ site.email }}" class="contact-link">
+          <i class="fas fa-envelope"></i> {{ site.email }}
+        </a>
+        {% endif %}
+        
+        {% if site.phone %}
+        <a href="tel:{{ site.phone }}" class="contact-link">
+          <i class="fas fa-phone"></i> {{ site.phone }}
+        </a>
+        {% endif %}
+        
+        {% if site.location %}
+        <a href="#" class="contact-link">
+          <i class="fas fa-map-marker-alt"></i> {{ site.location }}
+        </a>
+        {% endif %}
+        
+        {% if site.linkedin %}
+        <a href="{{ site.linkedin }}" target="_blank" class="contact-link">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        {% endif %}
+        
+        {% if site.github %}
+        <a href="{{ site.github }}" target="_blank" class="contact-link">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</header>
